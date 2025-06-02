@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:500;600&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap')
+
+light-gray = #F2F5F9
+white = #FFFFFF
+dark-blue = #111729
+slate-gray = #4A5567
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body 
+    font-family 'Lato', sans-serif !important
+    background-color light-gray !important
+    color dark-blue !important
+
+main 
+    max-width 450px
+    width 95%
+    margin-top 10rem
+    background-color white
+
+    .image-container
+        picture
+            .women-img
+                height 260px  
+
+        .overlay
+            position absolute
+            bottom -1px
+
+    .card-info
+        padding 0 3rem .2rem 3rem
+
+        h4
+            font-family 'Poppins', sans-serif
+
+        p
+            color slate-gray
+
+    hr
+        height 0.1rem
+        background-color slate-gray
+
+    .author-info
+        padding 0 3rem 1.5rem 3rem
+
+        picture
+            img 
+                width 2.8rem
+                height 2.8rem
+
+        div 
+            .profile
+                font-size 14px 
+                color slate-gray

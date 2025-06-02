@@ -56,7 +56,7 @@ A clean, responsive business blog card built with HTML, Stylus, and Bootstrap. T
 **Desktop Design**
 ![Desktop Design](design/desktop-design.png)
 
-**Mobile Design**
+**Mobile Design**  
 <img src="design/mobile-design.png" height="750px">
 
 ## Built with
@@ -115,4 +115,3 @@ stylus styles/style.styl -o styles/
 
 * LinkedIn [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
-```
